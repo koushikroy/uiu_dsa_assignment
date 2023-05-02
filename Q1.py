@@ -63,7 +63,7 @@ n = 4
 m = 5
 green_times = [4, 3, 2, 5]
 roads = [(1, 2, 4), (1, 3, 8), (2, 3, 6), (2, 4, 10), (3, 4, 7)]
-print("Test case 1, expected result = 15, actual result =", find_min_time(source, destination, n, m, green_times, roads))  # Output: 15
+# print("Test case 1, expected result = 15, actual result =", find_min_time(source, destination, n, m, green_times, roads))  # Output: 15
 
 # Test Case 2: Boundary Data - Single junction
 source = 1
@@ -72,7 +72,7 @@ n = 1
 m = 0
 green_times = [5]
 roads = []
-print("Test case 2, expected result = 0, actual result =", find_min_time(source, destination, n, m, green_times, roads))  # Output: 0
+# print("Test case 2, expected result = 0, actual result =", find_min_time(source, destination, n, m, green_times, roads))  # Output: 0
 
 # Test Case 3: Boundary Data - No roads
 source = 1
@@ -81,7 +81,7 @@ n = 3
 m = 0
 green_times = [3, 4, 5]
 roads = []
-print("Test case 3, expected result = -1, actual result =", find_min_time(source, destination, n, m, green_times, roads))  # Output: -1
+# print("Test case 3, expected result = -1, actual result =", find_min_time(source, destination, n, m, green_times, roads))  # Output: -1
 
 # Test Case 4: Normal Data - Multiple paths with different waiting times
 source = 1
@@ -90,11 +90,11 @@ n = 5
 m = 6
 green_times = [4, 3, 2, 5, 1]
 roads = [(1, 2, 4), (1, 3, 8), (2, 3, 6), (2, 4, 10), (3, 4, 7), (3, 5, 3), (5, 4, 5)]
-print("Test case 4, expected result = 11, actual result =", find_min_time(source, destination, n, m, green_times, roads))  # Output: 11
+# print("Test case 4, expected result = 11, actual result =", find_min_time(source, destination, n, m, green_times, roads))  # Output: 11
 
 # User input test case
 # Read source and destination junctions from user input.
-print("Test case for user input. Provide any test case:")
+# print("Test case for user input. Provide any test case:")
 source, destination = map(int, input().split())
 
 # Read the number of junctions (n) and roads (m) from user input.
